@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+html, body{	font-family: "Courier New", Courier, monospace;font-weight: normal;}
+
+body{ width:1220px; margin: 0 auto;}
+
+
+/*HEADER*/
+header{margin-top: 20px;position:fixed;width: 220px;}
+header h1{font-family: "Courier New", Courier, monospace;font-weight: normal; font-size: 22px;height: 23px;}
+header h2{font-family: "Trebuchet MS",Helvetica,sans-serif;font-size:20px;font-weight: bold; height: 48px; line-height:22px; padding-left: 1px; text-transform: uppercase;}
+header h3{clear:both;color:#161EAE;font-family: "Courier New", Courier, monospace;font-weight: normal; font-size: 19px; margin-top: 4px;}
+header img{margin-left: 2px}
+header .separation{background-color: black; height: 3px;float:left;margin-left:2px;width: 20px;}
+
+/*MENU*/
+/*GENERAL*/
+nav{height:600px;position: fixed; top:130px;}
+nav div:not(.separationTitleMenu){float:left;height: 100%;width:110px;}
+nav div ul{border-left: solid 1px black;padding-left: 5px;overflow: hidden;width:110px;}
+nav .subMenu2 ul {border-right: solid 1px black;}
+/*STYLE LISTE*/
+nav li{background: url(../img/separationListeMenu.jpg);background-repeat: no-repeat; background-position: center top;color: #808080;font-size: 11px;height:60px;padding-top: 1px; overflow: hidden;}
+nav li.last{background: url(../img/separationListeMenuDouble.jpg); background-position: center top;background-repeat: no-repeat;}
+nav li h1{color: black;font-family: "Trebuchet MS"; font-size:14px;font-weight: normal; height:20px; margin: 0; margin-top: 2px; text-transform: uppercase;}
+nav .separationTitleMenu{background-color: #808080;height:1px; width:10px;}
+/*ON*/
+nav .on, nav .on>h1{color:#161EAE;}
+nav .on .separationTitleMenu{background-color: #161EAE;}
+
+
+
+
+
+
+
+
+
+nav div.subMenu2,{height:100%;width:125px;background-color: blue;}
+nav div.subMenu2,nav div.subMenu1{top:0px;}
+
+article {float:right; position: relative;text-align: right;top: 75px;width:810px;}
+article h1{color:#161EAE;font-family: "Trebuchet MS";font-size: 30px;font-weight: bold;text-transform: uppercase;}
+article p{color: #808080;direction: rtl;float:right;font-size: 11px;margin-top: 20px;text-align: justify;}
+article .separation{background-color: #161EAE;float:right;height:5px;margin-top:5px;width:35px;}
+article a{color: #161EAE;font-size: 11px;float: right;margin-top:15px;text-decoration: none;}
+article figure{background-color:pink;display:inline-block;height:400px;width:810px;}
+
+@media screen and (max-width: 1200px) {
+
+	}
